@@ -6,8 +6,8 @@ a_tuple = ('is', 'a', 'sequence', 'but', 'immutable')
 
 # Iterations
 to_iterate = 'within a sting use a for loop'
-iterate_words = 'in a string as well by spliting it using'
-the_split_command = iterate_words.split(' ')
+to_iterate_words = 'in a string use'
+the_split_command = to_iterate_words.split(' ')
 
 for char in to_iterate:
     print(char)
@@ -19,3 +19,5 @@ count_items_using_accumulator = 0
 
 for word in range(len(a_tuple)):
     count_items_using_accumulator += 1
+
+
